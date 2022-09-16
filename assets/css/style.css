@@ -1,0 +1,307 @@
+body{
+    background-color: rgb(10, 10, 10);
+    margin: 0;
+    padding: 0;
+}
+.cabeçalho{
+    width: 100%;
+    height: 15.5vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logod{
+    width: 40%;
+    height: 15.5vh;
+}
+.produtos{
+    width: 20%;
+    height: 15.5vh;
+}
+.contato{
+    width: 20%;
+    height: 15.5vh;
+}
+.blog{
+    width: 20%;
+    height: 15.5vh;
+}
+.buttprod:hover{
+    color: aliceblue;
+    font-size: 150%;
+}
+.buttprod{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: rgb(158, 121, 26);
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+    font-size: 140%;
+}
+.buttcontt:hover{
+    color: aliceblue;
+    font-size: 150%
+}
+.buttcontt{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: rgb(158, 121, 26);
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+    font-size: 140%;
+}
+.buttblog:hover{
+    color: aliceblue;
+    font-size: 150%
+}
+.buttblog{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: rgb(158, 121, 26);
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+    font-size: 140%;
+}
+.iphones{
+    width: 800px;
+    height: 405px;
+}
+.estetic{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+.lay{
+    width: 50%;
+    height: 630px;
+}
+.introd{
+    margin: 8%;
+    width: 50%;
+    height: 630px;
+    font-size: 110%;
+}
+.ok{
+    color: rgb(167, 127, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+    box-shadow: 2%;
+}
+.text1{
+    color: rgb(158, 121, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+}
+.text2{
+    color: rgb(158, 121, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+}
+.text3{
+    color: rgb(158, 121, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+}
+.lançamentos{
+    width: 100%;
+    height: 10vh;
+    border-color: rgb(192, 75, 75);
+    color: rgb(158, 121, 26);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.photolanc{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.iphred{
+    width: 330px;
+    height: 330px;
+}
+.iphverde{
+    width: 420px;
+    height: 320px;
+}
+.vermelhinho{
+    width: 30%;
+    height: 60vh;
+}
+.verdinho{
+    width: 30%;
+    height: 60vh;
+}
+.goldd{
+    width: 30%;
+    height: 60vh;
+    padding-bottom: 18%;
+}
+.dourado{
+    width: 400px;
+    height: 477px;
+}
+.lanc{
+    color: rgb(158, 121, 26);
+    background-color: transparent;
+    border: none;
+    font-variant-caps: all-small-caps;
+    font-size: 150%;
+}
+.lanc:hover{
+    color: aliceblue;
+}
+.rodape{
+    width: 100%;
+    height: 18vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.socialmedia{
+    width: calc(100%/3);
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 2%;
+}
+.face{
+    width: 55px;
+    height: 50px;
+}
+.insta{
+    width: 50px;
+    height: 50px;
+}
+.twitter{
+    width: 60px;
+    height: 60px;
+}
+.botoes{
+    width: calc(100%/3);
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.produtosbt:hover{
+    color: aliceblue;
+    font-size: 120%;
+}
+.produtosbt{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: rgb(158, 121, 26);
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+    font-size: 100%;
+}
+.contatobt:hover{
+    color: aliceblue;
+    font-size: 120%;
+}
+.contatobt{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: rgb(158, 121, 26);
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+    font-size: 100%;
+}
+.blogbt:hover{
+    color: aliceblue;
+    font-size: 120%;
+}
+.blogbt{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: rgb(158, 121, 26);
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+    font-size: 100%;
+}
+.loginadm{
+    width: calc(100%/3);
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.loginbt:hover{
+    color: aliceblue;
+    font-size: 160%;
+}
+.loginbt{
+    color: rgb(158, 121, 26);
+    background-color: rgb(24, 41, 41);
+    font-variant-caps: all-small-caps;
+    font-size: 140%; 
+    box-shadow: 5%;
+    border-radius: 20px;
+}
+.atssec{
+    width: 100%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(158, 121, 26);
+    font-size: 80%;
+}
+.atsphoto{
+ width: 270px;
+ width: 270px;
+ padding-left: 50%;
+}
+.atsphoto:hover{
+    border-right: double;
+}
+
+.ats{
+    width: 50%;
+    height: 40vh;
+    padding-bottom: 15%;
+}
+.textats{
+    width: 50%;
+    height: 40vh;
+    padding-bottom: 10%;
+}
+.cliqq{
+    font-size: 140%;
+    color:rgb(214, 163, 33);
+}
